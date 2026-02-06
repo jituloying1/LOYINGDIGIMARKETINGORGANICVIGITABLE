@@ -50,7 +50,7 @@ function showBank(){
 }
 
 function sendToSheet(){
- fetch("YOUR_APPS_SCRIPT_URL",{
+ fetch("https://script.google.com/u/0/home/projects/1plx9COfcxfhi9gAjtKh2qHrPL-hXoTQzAcOu_N8VUI7d3qrHEqZ09PBJ/edit",{
  method:"POST",
  body:JSON.stringify({
   name:fname.value,
@@ -60,4 +60,5 @@ function sendToSheet(){
  })
 });
 }
+
 
